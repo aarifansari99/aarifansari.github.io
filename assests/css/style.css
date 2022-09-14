@@ -105,9 +105,33 @@ li a{
 .intro h2{
     font-size: 35px;
     font-family: cursive;
+    background: -webkit-linear-gradient(#c68d6e,#5c2f17);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
-h2 span{
+.intro h2{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .10em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+/* h2 span{
     transition: .25s ease;
 }
 
@@ -115,7 +139,7 @@ h2 span{
     background: -webkit-linear-gradient(#ecd570, #2f220f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 /* .intro h2 span:hover{
     background: -webkit-linear-gradient(#ecd570, #2f220f);
@@ -236,6 +260,7 @@ h2 span{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 3px 3px 20px 0px;
 }
 
 .about h2{
