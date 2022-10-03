@@ -1,6 +1,6 @@
 $.ajax({
 	type: "GET",
-	url: `http://103.88.221.150:9439/api/bank/getAll`,
+	url: `https://103.88.221.150:9439/api/bank/getAll`,
 	responseType: "json",
 	success: function (response) {
         console.log("api data=>", response);
