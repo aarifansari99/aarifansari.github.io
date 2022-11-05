@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/vendor/DataTables (1)/datatables.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- Button trigger modal -->
+    <div class="btn d-flex justify-content-end align-items-end">
+
+        <button type="button" id="addBank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Add New Bank A/C
+        </button>
+    </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">ADD NEW BANK</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Add Account</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Add A/C">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail2" class="form-label">Bank Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Bank Name">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">IFSC Code</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="IFSC">
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="btn-post">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+<table id="bank-data" class="table primary">
+   <thead>
+    <tr>
+        <th>bankId</th>
+        <th>bankName</th>
+        <th>accountNumber</th>
+        <th>ifscCode</th>
+        <th>ipAddress</th>
+        <th>activeStatus</th>
+        <th>deleteStatus</th>
+        <th>Action</th>
+        <th>editBank</th>
+        <th>Delete</th>
+    </tr>
+   </thead>
+   <tbody>
+    
+   </tbody>
+</table>
+
+
+<!-- Edit Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Edit NEW BANK</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Edit Add Account</label>
+                <input type="text" class="form-control" id="editAccount" aria-describedby="emailHelp" placeholder="Add A/C">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail2" class="form-label">Edit Bank Name</label>
+                <input type="text" class="form-control" id="editBankName" aria-describedby="emailHelp" placeholder="Bank Name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Edit IFSC Code</label>
+                <input type="text" class="form-control" id="editifscCode" placeholder="IFSC">
+              </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="updateBank">Update Bank</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+
+    <script src="./assets/vendor/jquery-3.6.0.min.js"></script>
+    <script src="./assets/vendor/DataTables (1)/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
