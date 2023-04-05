@@ -1,0 +1,830 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 25px;
+    margin-top: 35px;
+    height: 100vh;
+
+}
+
+.intro-container{
+    width: 100%;
+    height: 650px;
+    background: url(../images/vbgggfjIMG_3449.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-container{
+    width: 100%;
+    height: 100%;
+    background: #00000094;
+}
+
+.header-part{
+    height: 70px;
+    padding-left: 150px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.head-name{
+    text-transform: uppercase;
+    font-family: monospace;
+    color: white;
+}
+
+/* .nav-links{
+    list-style: none;
+} */
+
+/* .nav-links li{
+    margin: 0 0px;
+} */
+
+.nav-link{
+    color: #fff;
+
+    position: relative;
+}
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 3px;
+    width: 0;
+    border-radius: 2px;
+    background-color: #fff;
+    transition: 0.4s ease;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    padding: 0 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+.name-links{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 340px; */
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.intro h1{
+    padding: 10px;
+    font-family: cursive;
+}
+
+.intro h2{
+    font-size: 35px;
+    font-family: cursive;
+    background: -webkit-linear-gradient(#c68d6e,#5c2f17);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.intro h2{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .10em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+/* h2 span{
+    transition: .25s ease;
+}
+
+.inner-container:hover .intro h2 span{
+    background: -webkit-linear-gradient(#ecd570, #2f220f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+/* .intro h2 span:hover{
+    background: -webkit-linear-gradient(#ecd570, #2f220f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.social-links{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .social-links a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.social-links i{
+    width: 25px;
+    height: 25px;
+    color: white;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offside, outline-color, background-color;
+    transition-duration: .25s;
+}
+
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon:hover i{
+    animation: shake .25s;
+}
+
+.icon--insta:hover{
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.icon--twitter:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.icon--link:hover{
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.icon--facebook:hover{
+    background-color:  #0077b5;
+    outline-color:  #0077b5;
+}
+
+.icon--github:hover{
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+@keyframes shake {
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+
+/* //////////////////////about me/////////////////// */
+
+.about-me{
+    width: 100%;
+    height: 370px;
+    margin-top: 30px;
+}
+
+.self-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.self-intro:hover .skills .develop::before{
+    width: 250px;
+}
+.self-intro:hover .skills .design::before{
+    width: 250px;
+}
+.self-intro:hover .skills .known::before{
+    width: 250px;
+}
+
+.img-container{
+    width: 300px;
+    padding-right: 100px;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 3px 3px 20px 0px;
+}
+
+.about h2{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.about::before{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: 0.7s linear;
+    position: absolute;
+    bottom: 0;
+}
+
+.about-me:hover .about::before{
+    width: 35px
+
+}
+
+.my-self{
+    padding-top: 20px;
+}
+
+.skills{
+    width: 310px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.develop{
+    width: 300px;
+    height: 15px;
+    border: 1px solid;
+    margin: 10px 0 10px 0px;
+    position: relative;
+}
+
+.develop span{
+    z-index: 3;
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.develop::before{
+    content: '';
+    width: 0;
+    height: 15px;
+    background: black;
+    position: absolute;
+    transition: 0.5s linear;
+
+}
+
+/* .develop:hover::before{
+    width: 250px;
+} */
+
+.design{
+    width: 300px;
+    height: 15px;
+    border: 1px solid;
+    margin: 10px 0 10px 0px;
+}
+
+.design span{
+    z-index: 3;
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.design::before{
+    content: '';
+    width: 0;
+    height: 15px;
+    background: black;
+    position: absolute;
+    transition: 0.5s linear;
+}
+
+.design:hover::before{
+    width: 250px;
+}
+
+.known{
+    width: 300px;
+    height: 15px;
+    border: 1px solid;
+    margin: 10px 0 10px 0px;
+}
+
+.known span{
+    z-index: 3;
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.known::before{
+    content: '';
+    width: 0;
+    height: 15px;
+    background: black;
+    position: absolute;
+    transition: 0.5s linear;
+}
+
+.known:hover::before{
+    width: 250px;
+}
+
+.cv{
+    background: black;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 25px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+.me{
+    background: white;
+    color: black;
+    width: 105px;
+    height: 25px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+.cv i{
+    padding-right: 6px;
+}
+
+.me i{
+    padding-right: 6px;
+}
+
+.cv:hover{
+    width: 125px;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.me:hover{
+    width: 112px;
+    height: 25px;
+    letter-spacing: 1px;
+    background-color: black;
+    border: 2px solid black;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* //////////////Services///////////////////// */
+
+.services{
+    width: 100%;
+    height: 590px;
+    margin-top: 30px;
+    background: aliceblue;
+}
+
+.heading-name{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+}
+
+.heading-name::before{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: 0.7s linear;
+    position: absolute;
+    bottom: 0;
+}
+
+.services:hover .heading-name::before{
+    width: 35px;
+}
+
+.services-list ul{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.services-list ul li{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .25s ease;
+}
+
+li:hover{
+    transform: scale(1.1);
+    
+}
+
+.services-list ul li i{
+    width: 35px;
+    height: 35px;
+    background: lightgray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-list ul li h3{
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+                                         /* resume */
+
+.resume{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px ;
+}
+
+.heading-namer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+   
+}
+
+.heading-namer h2{
+    position: relative;
+}
+
+.heading-namer h2::before{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: 0.7s linear;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.resume:hover .heading-namer h2::before{
+    width: 45px;
+}
+
+.logo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.education .logo{
+    height: 27px;
+    padding-left: 90px;
+}
+
+.logo span{
+    font-size: 20px;
+    padding: 7px 0 0 0px;
+}
+
+
+
+.about-school{
+    width: 610px;
+    height: 100px;
+    padding-left: 108px;
+    padding-right: 20px;
+    border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.about-school::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    top: 25px;
+    right: -9px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+}
+
+.about-school h3{
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+    color: var(--white-color);
+}
+
+.about-school span{
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+    color: var(--yellow-color);
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+.about-school p{
+    font-family: monospace;
+    display: flex;
+    justify-content: end;
+}
+.about-clg{
+    width: 610px;
+    height: 100px;
+    padding-left: 108px;
+    padding-right: 20px;
+    border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.about-clg::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    top: 25px;
+    right: -9px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+}
+
+.about-clg h3{
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+    color: var(--white-color);
+}
+
+.about-clg span{
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+    color: var(--yellow-color);
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+.about-clg p{
+    font-family: monospace;
+    display: flex;
+    justify-content: end;
+}
+.about-graduation{
+    width: 610px;
+    height: 100px;
+    padding-left: 108px;
+    padding-right: 20px;
+    border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.about-graduation::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    top: 25px;
+    right: -9px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+}
+
+.about-graduation h3{
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+    color: var(--white-color);
+}
+
+.about-graduation span{
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+    color: var(--yellow-color);
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+.about-graduation p{
+    font-family: monospace;
+    display: flex;
+    justify-content: end;
+}
+
+/* ////////contact////////////// */
+
+.contact{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    background: aliceblue;
+    
+}
+
+
+.header-in{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-in h2{
+    font-size: 30px;
+    position: relative;
+    
+}
+
+.header-in h2::before{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: 0.7s linear;
+    position: absolute;
+    bottom: 0;
+}
+
+.contact:hover .header-in h2::before{
+    width: 55px;
+}
+
+.in-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side{
+    width: 580px;
+    height: 335px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-side .message{
+    width: 100%;
+    height: 100%;
+}
+
+.message .N-E{
+    width: 100%;
+    padding: 10px;
+}
+
+.N-E .name{
+    width: 48%;
+    height: 25px;
+    border: none;
+}
+
+.N-E .email{
+    width: 48%;
+    height: 25px;
+    border: none;
+}
+
+.message .sub{
+    padding: 10px;
+}
+
+.sub input{
+    width: 100%;
+    height: 25px;
+    border: none;
+}
+
+.message .msg{
+    padding: 10px;
+}
+
+.msg textarea{
+    width: 100%;
+    border: none;
+}
+
+.message .btn{
+    text-align: center;
+}
+
+.btn button{
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    text-transform: capitalize;
+    background: black;
+    color: white;
+}
+
+button i{
+    padding-right: 10px;
+}
+
+.btn button:hover{
+    width: 145px;
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+::placeholder{
+    padding-left: 10px;
+    font-family: monospace;
+}
+
+.right-side{
+    box-sizing: border-box;
+}
+
+.map-container{
+    width: 250px;
+    height: 325px;
+}
+
+.map-container iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
