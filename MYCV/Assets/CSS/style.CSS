@@ -132,9 +132,18 @@
 
 .details{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 10px 0 0 50px;
 
+}
+
+.details ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.details ul li{
+    list-style-type: none;
 }
 
 .details span{
