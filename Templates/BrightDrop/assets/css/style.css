@@ -1,0 +1,270 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+header{
+    width: 111%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left{
+    padding-left: 110px !important;
+}
+
+.logo-img{
+    width: 120px;
+    height: 30px
+}
+
+.logo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.nav-right{
+    padding-right: 60px !important;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.saved{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.saved img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.header-btm{
+    width: 116% !important;
+    height: 30px;
+    background: #f2f3f5;
+    display: flex;
+    align-items: center;
+}
+
+.header-btm ul{
+    padding-left: 110px !important;
+    display: flex;
+    list-style-type: none;
+    color: #0072ce;
+    gap: 15px;
+}
+
+.company-part{
+    width: 116% !important;
+    height: 537px;
+}
+
+.co-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/engineering\ new-5.jpg);
+}
+
+.co-img h1{
+    color: #fff;
+    font-size: 81px;
+}
+
+.co-img a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.co-img span{
+    color: #fff;
+}
+
+.written-part{
+    width: 100%;
+    height: 100%;
+    padding-left: 110px !important;
+    background: linear-gradient(90deg, rgba(32,57,94,1) 0%, rgb(127 135 148 / 29%) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discrip-container.row{
+    width: 115%;
+    padding: 110px !important;
+    background:#f2f3f5 ;
+}
+
+.row{
+    width: 115% !important;
+}
+
+.box-container{
+    background: #fff;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.discription h3{
+    color: #134a9c;
+    padding-bottom: 15px !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.discription p{
+    padding-bottom: 10px !important;
+}
+
+.discription span{
+    color: #474b51;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.discription ul{
+    padding-left: 30px !important;
+}
+
+.apply-job h3{
+    color: #fff;
+    background: #0072ce;
+    border-radius: 20px;
+    font-size: 15px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply-job p{
+    color: #134a9c;
+    padding-top: 25px !important;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials a .share{
+    text-decoration: none;
+    color: #134a9c;
+    font-size: 25px;
+}
+
+.share i{
+    padding-right: 15px !important;
+}
+
+.socials span{
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* .socials a{
+    padding-left: 205px !important; */
+
+.box-container h5{
+    color: #134a9c;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.boxes h4{
+    color: #134a9c;
+    font-weight: 400;
+}
+
+.boxes span{
+    color: #474b51;
+    font-weight: 200;
+}
+
+.box-1, .box-2, .box-3{
+    padding: 20px 0 0 0 !important;
+}
+
+.more-d h3{
+    color: #134a9c;
+    padding-bottom: 15px !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.more-d span{
+    color: #474b51;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.more-d ul li{
+    padding-bottom: 10px !important;
+}
+
+.more-d ul{
+    padding-left: 30px !important;
+}
+.more-d p{
+    padding-bottom: 10px !important;
+}
+
+.logo-image{
+    width: 190px;
+    height: 50px;
+}
+
+.logo-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.footer{
+    padding: 0 0 0 135px !important;
+}
+
+.lists ul{
+    list-style-type: none;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.lists ul li{
+    padding-bottom: 10px !important;
+}
+
+.all-socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.G-M{
+    font-weight: 400;
+}

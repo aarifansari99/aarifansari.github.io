@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.social-links{
+    width: 165px;
+}
+
+
+.login-part{
+    width: 220px;
+}
+
+.name-logo span{
+    color: #d3a366;
+}
+
+.nav-container header{
+    width: 100%;
+    background: #222222;
+}
+
+
+.nav-right{
+    gap: 10px;
+}
+.nav-right span{
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.nav-right i{
+    color: #fff;
+}
+
+.product-search input{
+    border: none;
+}
+
+.image-container{
+    width: 55px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.slide{
+    height: 375px;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ban{
+    position: relative;
+}
+
+.about{
+    width: 100%;
+    padding-top: 95px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.about h2{
+    font-size: 50px;
+}
+
+.about, span h2{
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-1{
+    height: 337px;
+}
+
+
+.banner-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.banner-2{
+    height: 337px;
+    
+}
+
+.banner-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+.banner{
+    height: 203px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+
+.btn-container{
+    padding-top: 25px;
+    border-bottom: 2px solid #fff;
+}
+
+.btn-container button{
+    border: none;
+    background: none;
+    padding-bottom: 10px;
+}
+
+.btn-container button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.saree, .accessory, .new span{
+    color: #fff;
+    font-size: 20px;
+}
+
+.off{
+    position: relative;
+}
+
+.offers{
+    position: absolute;
+    top: 0;
+}
+
+.bttn-container button{
+    border: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+.bttn-container button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.trends span{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.trends ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+
+/* .deal-day{
+    position: relative;
+
+} */
+
+.deals{
+    background-image: url(..//images/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* top: 0; */
+}
+
+.bg-image img{
+    width: 100%;
+}
+
+.day-times .l-q{
+    color: #d3a366;
+    font-size: 12px;
+}
+
+.day-times span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+.clr{
+    color: #d3a366;
+}
+
+.deal-prices{
+    gap: 30px;
+}
+
+.img-container{
+    width: 170px;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.btnn-container button{
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.btnn-container button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.time{
+    gap: 25px;
+}
+
+.policy{
+    background: #222222;
+}
+
+.policy i{
+    color: #d3a366 ;
+}
+
+.policy h3{
+    color: #fff;
+    font-size: 15px;
+}
+.policy span{
+    color: rgba(223, 223, 223, 0.871);
+    font-size: 12px;
+}
+
+.show-more{
+    border-bottom: 1px solid #0000002e;
+}
+
+.btn button{
+    border: none;
+    background: none;
+    border-bottom: 2px solid #000;
+}
+
+.btn button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.season-sale{
+    position: relative;
+}
+
+.season-offer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.about-offer h2{
+    color: #fff;
+    font-size: 20px;
+}
+
+.about-offer span{
+    color: #fff;
+    font-size: 30px;
+}
+
+.Image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.subs{
+    height: 100%;
+    background: #f2f2f2fa;
+}
+
+.sign-up h3{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.sign-up span{
+    color: #00000080;
+    font-size: 18px
+}
+
+.sign-up .disc{
+    color: #d3a366;
+}
+
+.for-mail input{
+    width: 380px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.subs-btn{
+    width: 110px;
+    border-bottom: 2px solid #000;
+}
+
+.subs-btn button{
+    border: none;
+    background: none;
+}
+
+.subs-btn button a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.insta-btn{
+    
+    border-bottom: 2px solid #000;
+}
+
+.insta h3{
+    margin: 0;
+}
+
+.insta p{
+    color: #b2b2b2;
+}
+
+.insta-btn button{
+    border: none;
+    background: none;
+}
+
+.insta-btn button a{
+    text-decoration: none;
+    color: #d3a366;
+}
+
+.logo-image{
+    width: 75px;
+}
+
+.logo-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.footer{
+    background: #222222;
+}
+
+.footer h2{
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer p{
+    color: #969696;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #969696;
+}
+
+.social-links ul{
+    display: flex;
+    gap: 40px;
+
+}

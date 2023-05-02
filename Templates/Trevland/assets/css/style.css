@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.back-img{
+    height: 750px;
+    width: inherit;
+    position: relative;
+}
+
+.back-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.top h2{
+    color: #fff;
+}
+
+.navbar nav ul{
+    display: flex;
+    gap: 60px;
+}
+
+.navbar nav ul li{
+    color: #fff;
+    list-style-type: none;
+}
+
+.book-btn{
+    /* padding-right: 60px; */
+}
+
+.book-btn button{
+    width: 140px;
+    height: 40px;
+    background: orange;
+    border-radius: 10px;
+    border: none;
+}
+
+.book-btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom{
+    position: absolute;
+    left: 180px;
+    top: 230px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+
+.about span{
+    color: #fff;
+    font-size: 50px;
+}
+
+.discrip{
+    padding-bottom: 20px;
+}
+
+.discrip p{
+    color: #fff;
+}
+
+.explore-btn button{
+    width: 140px;
+    height: 40px;
+    background: orange;
+    border-radius: 10px;
+    border: none;
+}
+
+.explore-btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ////////LOCATION PAGE //////////// */
+
+.location{
+    margin-top: 100px;
+}
+
+.popular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+.popular h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.places{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.place-1{
+    display: inline-block;
+    border: 1px solid #cecece;
+}
+
+.istanbul-img{
+    width: 285px;
+    height: 250px;
+}
+
+.istanbul-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.about-istanbul{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.place-2{
+    display: inline-block;
+    border: 1px solid #cecece;
+}
+
+.malasia-img{
+    width: 285px;
+    height: 250px;
+}
+
+.malasia-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.about-malasia{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place-3{
+    display: inline-block;
+    border: 1px solid #cecece;
+}
+
+.korea-img{
+    width: 285px;
+    height: 250px;
+}
+
+.korea-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.about-korea{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ///////Specila offers page ////// */
+
+
+.offers{
+    margin-top: 100px;
+}
+
+.off{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+.off h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.cities{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.city{
+    display: inline-block;
+
+}
+
+.city-img{
+    width: 230px;
+
+}
+
+.city-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+.about-city{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-city h2{
+    padding-bottom: 5px;
+
+}
+
+.ratings{
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings span{
+    padding-right: 70px;
+
+}
+
+
+/* ///Blogger Page//// */
+
+.place-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.blogs{
+    margin: 100px 0 80px 0;
+   
+}
+
+.blogging{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+.blogging h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+.images{
+    width: 435px;
+
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+}
+.review h3{
+    padding: 10px 0 10px 0;
+
+}
+
+.other-reviews{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.re-image{
+    width: 200px;
+}
+
+.re-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.about-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.about-img h3{
+    padding: 10px 0 10px 0;
+
+}
+
+
+.footer{
+    background: #f3f3f3;
+
+}
+
+.footer footer{
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer .contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2{
+    padding-bottom: 20px;
+}
+
+.contact span{
+    padding-bottom: 10px;
+}
+
+
+footer .co-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.co-details span{
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+
+footer .terms{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.terms span{
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+
+footer .email{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.msg input{
+    height: 30px;
+
+}
+
+.btn button{
+    width: 60px;
+    height: 30px;
+    background: orange;
+    border: none;
+    border-radius: 4px;
+
+}

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="header pt-2">
+                <div class="header-top d-flex justify-content-between border-bottom pb-2">
+                    <div class="top-left">
+                        <div class="cell">
+                            <i class="bi bi-telephone"></i>
+                            <span>Call: +012345689</span>
+                        </div>
+                    </div>
+                    <div class="top-right d-flex">
+                        <div class="social-links d-flex justify-content-between pe-4">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-pinterest"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="login-part d-flex justify-content-between">
+                            <div class="login">
+                                <i class="bi bi-person"></i>
+                                <span>Login</span>
+                            </div>
+                            <span>USD <i class="bi bi-chevron-compact-down"></i></span>
+                            <span>Eng <i class="bi bi-chevron-compact-down"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-btm d-flex justify-content-between pt-3 pb-4">
+                  <div class="product-search d-flex align-items-center">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search product...">
+                  </div>
+                  <div class="name-logo d-flex">
+                    <div class="image-container">
+                      <img src="./assests/images/anasha-logo.png" alt="">
+                    </div>
+                    <h3 class="d-flex align-items-center">ANASHA <span class="ps-2">FASHION</span></h3>
+                  </div>
+                  <div class="wish-cart d-flex align-items-center">
+                    <div class="wishlist pe-3">
+                      <i class="bi bi-suit-heart"></i>
+                      <span>My Wishlist</span>
+                    </div>
+                    <div class="cust-cart">
+                      <i class="bi bi-cart"></i>
+                      <span>Rs 164,00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="nav-container">
+                    <header class="d-flex justify-content-between ">
+                            <div class="nav-left">
+                                <nav class="navbar navbar-expand-lg">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                          <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link active dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            SALWAR KAMEEZ
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                          </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link active dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            LEHENGAS
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                          </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active text-white" href="#">LOOKBOOK</a>
+                                          </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link active text-white">ABOUT</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link active text-white">CONTACT</a>
+                                        </li>
+                                      </ul>
+                                </nav>
+                            </div>
+                            <div class="nav-right d-flex align-items-center text-whitem ">
+                                <i class="bi bi-lightbulb"></i>
+                                <span>CLEARANCE UPTO 30% OFF</span>
+                            </div>
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="slider-front">
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active slide">
+                        <img src="./assests/images/Front slider images/slide-1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item slide">
+                        <img src="./assests/images/Front slider images/slide-2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item slide">
+                        <img src="./assests/images/Front slider images/slide-3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+                  <div class="col-sm-1 col-md-2 col-lg-6 mt-3 ban">
+                    <div class="banner-1">
+                      <img src="./assests/images/banner images/banner-1.jpg" alt="">
+                    </div>
+                    <div class="about">
+                      <span>NEW COLLECTIONS</span>
+                      <h2>SHOP WOMEN'S</h2>
+                      <div class="btn-container">
+                        <button><a href="#">DISCOVER NOW</a></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-1 col-md-2 col-lg-6 mt-3 ban">
+                    <div class="banner-2">
+                      <img src="./assests/images/banner images/banner-2.jpg" alt="">
+                    </div>
+                    <div class="about">
+                      <span>NEW COLLECTIONS</span>
+                      <h2>SHOP WOMEN'S</h2>
+                      <div class="btn-container">
+                        <button><a href="#">DISCOVER NOW</a></button>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="col-sm-1 col-md-2 col-lg-4 mt-3 off">
+                    <div class="banner">
+                      <img src="./assests/images/banner images/banner-3.jpg" alt="">
+                    </div>
+                    <div class="offers ps-5">
+                      <div class="saree d-flex flex-column">
+                        <span>Saree</span>
+                        <span>SUMMER</span>
+                        <span>SALE-70% OFF</span>
+                      </div>
+                      <div class="bttn-container pt-5">
+                        <button><a href="#">SHOP NOW</a></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-1 col-md-2 col-lg-4 mt-3 off">
+                    <div class="banner">
+                      <img src="./assests/images/banner images/banner-4.jpg" alt="">
+                    </div>
+                    <div class="offers ps-5">
+                      <div class="accessory d-flex flex-column">
+                        <span>ACCRSSORIES</span>
+                        <span>2019 WINTER </span>
+                        <span>UP TO-50% OFF</span>
+                      </div>
+                      <div class="bttn-container pt-5">
+                        <button><a href="#">SHOP NOW</a></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-1 col-md-2 col-lg-4 mt-3 off">
+                    <div class="banner">
+                      <img src="./assests/images/banner images/banner-5.jpg" alt="">
+                    </div>
+                    <div class="offers ps-5">
+                      <div class="new d-flex flex-column">
+                        <span>NEW IN</span>
+                        <span>WOMEN'S</span>
+                        <span>ATTIRE</span>
+                      </div>
+                      <div class="bttn-container pt-5">
+                        <button><a href="#">SHOP NOW</a></button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="col-12 mb-4">
+                <div class="trends mt-5 d-flex flex-column align-items-center">
+                  <span>TRENDING</span>
+                  <ul>
+                    <li>ALL</li>
+                    <li>BESTSELLER</li>
+                    <li>NEW</li>
+                  </ul>
+                </div>
+              </div>  
+              
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-1-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-10-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-11-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-12-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-2-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-3-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-4-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-5-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-6-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-7-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-8-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="imagee-container">
+                      <img src="./assests/images/product images/product-9-1.jpg" alt="">
+                    </div>
+                  </div>
+              
+              <div class="col-12 mt-5 ps-0 pe-0">
+                <div class="deals d-flex flex-column align-items-center">
+                  <div class="day-times pt-3 d-flex flex-column align-items-center">
+                    <span class="l-q pb-2">LIMITED EQANTITIES</span>
+                    <span>DEAL OF THE DAY</span>
+                    <div class="time pt-3 d-flex">
+                      <div class="hour d-flex flex-column align-items-center">
+                        <span class="clr">09</span>
+                        <span>hrs</span>
+                      </div>
+                      <span>:</span>
+                      <div class="mints d-flex flex-column align-items-center">
+                        <span class="clr">59</span>
+                        <span>mins</span>
+                      </div>
+                      <span>:</span> 
+                      <div class="secs d-flex flex-column align-items-center">
+                        <span class="clr">34</span>
+                        <span>secs</span>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="deal-prices pt-3 d-flex">
+                    <div class="cart-1">
+                      <div class="img-container">
+                        <img src="./assests/images/product-1.jpg" alt="">
+                      </div>
+                      <div class="deal-1 d-flex flex-column align-items-center">
+                        <span>Elasticated cotton shorts</span>
+                        <span>Now $24.99 <span>Was $30.99</span></span>
+                      </div>
+                      <div class="btnn-container pt-3 d-flex justify-content-center">
+                        <button><a href="#">Shop Now</a></button>
+                      </div>
+                    </div>
+                    <div class="cart-2">
+                      <div class="img-container">
+                        <img src="./assests/images/product-2.jpg" alt="">
+                      </div>
+                      <div class="deal-2 d-flex flex-column align-items-center">
+                        <span>Fine-knit jumper</span>
+                        <span>Now $8.99 <span>Was $17.99</span></span>
+                      </div>
+                      <div class="btnn-container pt-3 d-flex justify-content-center">
+                        <button><a href="#">Shop Now</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+                  <div class="col-sm col-md-6 col-lg-3 pt-4 pb-5 policy d-flex flex-column align-items-center">
+                    <i class="bi bi-truck"></i>
+                    <h3>Payment & Delivery</h3>
+                    <span>Free Shipping for orders over $50</span>
+                  </div>
+                  <div class="col-sm col-md-6 col-lg-3 pt-4 pb-5 policy d-flex flex-column align-items-center">
+                    <i class="bi bi-arrow-clockwise"></i>
+                    <h3>Return & Refunds</h3>
+                    <span>Free 100% money back gruarantee</span>
+                  </div>
+                  <div class="col-sm col-md-6 col-lg-3 pt-4 pb-5 policy d-flex flex-column align-items-center">
+                    <i class="bi bi-lock"></i>
+                    <h3>Secure Payment</h3>
+                    <span>100% secure payment</span>
+                  </div>
+                  <div class="col-sm col-md-6 col-lg-3 pt-4 pb-5 policy d-flex flex-column align-items-center">
+                    <i class="bi bi-headphones"></i>
+                    <h3>Quality Support</h3>
+                    <span>Alway online feedback 24/7</span>
+                  </div>
+              <div class="col-12">
+                <div class="arrivals mt-5 mb-4 d-flex flex-column align-items-center">
+                  <h3>NEW ARRIVALS</h3>
+                </div>  
+              </div>    
+              <div class="col-sm col-md-6 col-lg-3 ">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-5-1.jpg" alt="">
+                </div>
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Clothing</span>
+                  <h3>Tie-details top</h3>
+                  <p><span>Now $3.99</span><span>Was $6.99</span></p>
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 ">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-6-1.jpg" alt="">
+                </div>
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Shoes</span>
+                  <h3>Sandals</h3>
+                  <span>$12.99</span>
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 ">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-7-1.jpg" alt="">
+                </div>
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Bags</span>
+                  <h3>Small bucket bags</h3>
+                  <span>$14.99</span>
+                </div>
+                <!-- <div class="optional-img">
+                  <img src="./assests/images/product images/product-7-1.jpg" alt="">
+                  <img src="./assests/images/product images/product-7-1.jpg" alt="">
+                </div> -->
+              </div>
+              <div class="col-sm col-md-6 col-lg-3">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-8-1.jpg" alt="">
+                </div>
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Clothing</span>
+                  <h3>Denim jacket</h3>
+                  <span>Now $13.99</span>
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 ">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-9-1.jpg" alt="">
+                </div>
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Clothing</span>
+                  <h3>BShort wrap dress</h3>
+                  <span>$17.99</span>
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 ">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-10-1.jpg" alt="">
+                </div>
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Clothing</span>
+                  <h3>Biker jacket</h3>
+                  <span>Now $13.99</span>
+                </div>
+                <!-- <div class="optional-img">
+                  <img src="./assests/images/product images/product-10-1.jpg" alt="">
+                  <img src="./assests/images/product images/product-10-1.jpg" alt="">
+                </div> -->
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 ">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-11-1.jpg" alt="">
+                </div> 
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Shoes</span>
+                  <h3>Loafers</h3>
+                  <span>Now $9.99</span>
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 ">
+                <div class="img-containers">
+                  <img src="./assests/images/product images/product-12-1.jpg" alt="">
+                </div>
+                <div class="details d-flex flex-column align-items-center">
+                  <span>Clothing</span>
+                  <h3>Super skinny jeans jeggings</h3>
+                  <p><span>Now $12.99</span><span>Was $17.99</span></p>
+                </div>
+              </div>
+              <div class="show-more pb-5 d-flex flex-column align-items-center">
+                <div class="btn">
+                  <button><a href="#">Show More</a></button>
+                </div>
+              </div>
+              
+                 <div class="shop-by pt-5 d-flex flex-column align-items-center">
+                  <h3>Shop by Brands</h3>
+                 </div>
+              <div class="col-sm col-md-6 col-lg-3 col-xl-2 mt-5 mb-5 ">
+                <div class="brand-img">
+                  <img src="./assests/images/brands/1.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 col-xl-2 mt-5 mb-5">
+                <div class="brand-img">
+                  <img src="./assests/images/brands/2.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 col-xl-2 mt-5 mb-5 ">
+                <div class="brand-img">
+                  <img src="./assests/images/brands/3.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 col-xl-2 mt-5 mb-5 ">
+                <div class="brand-img">
+                  <img src="./assests/images/brands/4.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 col-xl-2 mt-5 mb-5 ">
+                <div class="brand-img">
+                  <img src="./assests/images/brands/5.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-3 col-xl-2 mt-5 mb-5 ">
+                <div class="brand-img">
+                  <img src="./assests/images/brands/6.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-6 pe-0 ps-0 season-sale">
+                <div class="Image-container">
+                  <img src="./assests/images/banner images/banner-3.jpg" alt="">
+                </div>
+                <div class="season-offer d-flex flex-column align-items-center justify-content-center">
+                  <div class="about-offer d-flex align-items-center flex-column">
+                    <h2>LIMITED TIME ONLY</h2>
+                    <span>END OF THE SEASON</span>
+                    <span>SAVE 50% OFF</span>
+                  </div>
+                  <div class="btn-container">
+                    <button>
+                      <a href="#">Shop Now</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm col-md-6 col-lg-6 pe-0 ps-0">
+                <div class="subs pt-5 d-flex flex-column align-items-center justify-content-center">
+                  <div class="sign-up d-flex flex-column align-items-center">
+                    <h3>SEBSCRIBE TO OUR NEWSETLER</h3>
+                    <span>Sign up now for <span class="disc">10% discount</span> on  thos order.</span>
+                    <span>Cuntomise my news:</span>
+                  </div>
+                  <div class="for-mail pt-5">
+                    <input type="mail" placeholder="Enter Your Email Address">
+                  </div>
+                  <div class="subs-btn mb-5 pt-5 pb-2 d-flex justify-content-center">
+                    <button><a href="#">SUBSCRIBE</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5">
+                <div class="insta d-flex flex-column align-items-center">
+                  <h3>LET US INSPIRE YOU ON INSTAGRAM</h3>
+                  <P>Donec nec justo  eget felis facilisis fermentum.</P>
+                </div>
+              </div>
+              <div class="col">
+                <div class="insta-img">
+                  <img src="./assests/images/instagram/1.jpg" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="insta-img">
+                  <img src="./assests/images/instagram/2.jpg" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="insta-img">
+                  <img src="./assests/images/instagram/3.jpg" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="insta-img">
+                  <img src="./assests/images/instagram/4.jpg" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="insta-img">
+                  <img src="./assests/images/instagram/5.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-12 mt-5 mb-5 d-flex justify-content-center">
+                <div class="insta-btn pb-2">
+                  <button>
+                    <a href="#">@ANASHA INSTAGRAM</a>
+                  </button>
+                </div>
+              </div>
+                  <div class="col-sm col-md-6 col-lg-3 col-xl-3 pe-0 ps-0   border-bottom pt-5 footer">
+                    <h2>ANASHA FASHION</h2>
+                      <div class="logo-image pb-3 pt-2">
+                        <img src="./assests/images/anasha-logo.png" alt="">
+                      </div>
+                      <p>Praesent dapibus neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat</p>
+                      <div class="social-links">
+                        <ul>
+                          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                          <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm col-md-6 col-lg-3 col-xl-3 pe-0 ps-0 border-bottom pt-5 footer">
+                    <h2>USEFUL LINKS</h2>
+                    <ul>
+                      <li><a href="#">About Molla</a></li>
+                      <li><a href="#">How to shop on Molla</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Contact us</a></li>
+                      <li><a href="#">Log in </a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm col-md-6 col-lg-3 col-xl-3 pe-0 ps-0 border-bottom pt-5 footer">
+                    <h2>CUSTOMER SURVICE</h2>
+                    <ul>
+                      <li><a href="#">Payment Methods</a></li>
+                      <li><a href="#">Money-back guarantee</a></li>
+                      <li><a href="#">Returns</a></li>
+                      <li><a href="#">Shipping</a></li>
+                      <li><a href="#">Terms $ Conditions</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm col-md-6 col-lg-3 col-xl-3 pe-0 ps-0 border-bottom pt-5 footer">
+                    <h2>MY ACCOUNT</h2>
+                    <ul>
+                      <li><a href="#">Sign in</a></li>
+                      <li><a href="#">View Cart</a></li>
+                      <li><a href="#">My Wishlist</a></li>
+                      <li><a href="#">Track my order</a></li>
+                      <li><a href="#">Help</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 pt-5 pb-5 pe-0 ps-0 d-flex flex-column align-items-center footer">
+                    <div class="logo-image">
+                      <img src="./assests/images/anasha-logo.png" alt="">
+                    </div>
+                    <p>Copyright 2019 Anasha Fashion. All Right Reserved.</p>
+                  </div>
+              
+              
+              
+              
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="./assests/js/main.js"></script>
+</body>
+</html>

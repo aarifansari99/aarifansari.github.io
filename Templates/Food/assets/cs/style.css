@@ -1,0 +1,283 @@
+nav ul{
+    list-style-type: none;
+    gap: 25px;
+}
+
+.img-2{
+    width: 380px;
+    height: 555px;
+    position: relative;
+    margin-left: 130px;
+}
+
+.img-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+.left-intro{
+    display: inline-block;
+    padding-left: 120px;
+}
+
+.left-intro h2{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    font-weight: 400;
+    color: #35b8be;
+}
+
+.left-intro h3{
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.left-intro .HL{
+    color: #35b8be;
+}
+
+.btn button{
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background: #35b8be;
+}
+
+.btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.rate span{
+    font-weight: bold;
+}
+
+.rate span i{
+    color: #00b67a;
+    padding-right: 5px;
+}
+
+.heart{
+    width: 60px;
+    position: absolute;
+    top: 130px;
+    left: -30px;
+}
+
+.heart img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 12px;
+}
+
+.salad{
+    width: 160px;
+    position: absolute;
+    top: 260px;
+    right: -55px;
+}
+
+.salad img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.pick-items{
+    width: 210px;
+    height: 200px;
+    position: relative;
+}
+
+.pick-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.online{
+    width: 210px;
+    height: 200px;
+    position: relative;
+}
+
+.online img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.delivery{
+    width: 210px;
+    height: 200px;
+    position: relative;
+}
+
+.delivery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.works h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: #35b8be;
+
+}
+
+.added{
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 0px;
+}
+
+.added a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #35b8be;
+}
+
+.google{
+    position: absolute;
+    position: absolute;
+    top: 45px;
+    font-size: 35px;
+    left: -45px;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
+}
+
+
+.google a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: -webkit-linear-gradient(#4285f4,#34a853,#fbbc05,#ea4335);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apple{
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
+}
+
+.apple a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000;
+    font-size: 20px;
+}
+
+.about{
+    padding-top: 50px;
+}
+
+.about span{
+    color: #546285;
+}
+
+.about h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.browse h3{
+    font-size: 60px;
+    font-weight: 400;
+    color: #35b8be;
+}
+
+.simple-btn button{
+    border: none;
+    background: #3ebbc1;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.simple-btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.simple button{
+    border: 1px solid #d9d7d7;
+    background: #fff;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.simple a{
+    text-decoration: none;
+    color: #000;
+}
+
+.burger{
+    width: 230px;
+    height: 145px;
+}
+
+.burger img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-price span{
+    color: #3ebbc1;
+}
+
+.quantity span{
+    width: 50px;
+    height: 40px;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+}
+
+.add-btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #35b8be;
+}
+
+.add-btn button a{
+    text-decoration: none;
+    color: #fff;
+}
