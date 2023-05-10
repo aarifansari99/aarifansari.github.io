@@ -26,6 +26,27 @@
   text-decoration: underline;
 }
 
+.email-call {
+  display: flex;
+}
+
+.email-call ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.email-call .ul{
+  padding-left: 20px;
+}
+
+.email-call li{
+  list-style-type: none;
+}
+
+.email-call li a{
+  text-decoration: none;
+}
+
 .summary {
   padding: 30px 0 0 40px;
 }
@@ -38,6 +59,8 @@
 
 .summary p {
   padding: 15px 0 20px 10px;
+  font-family: math;
+
 }
 
 .education {
@@ -55,6 +78,8 @@
 
 .education ul li {
   padding-bottom: 5px;
+  font-family: math;
+
 }
 
 .skills {
@@ -72,6 +97,8 @@
 
 .skills ul li {
   padding-bottom: 5px;
+  font-family: math;
+
 }
 
 .work-exp {
@@ -86,7 +113,10 @@
 .work-exp ul{
   padding: 15px 0 20px 50px;
 }
+.work-exp ul li{
+  font-family: math;
 
+}
 
 .work-exp span {
   padding-left: 45px;
@@ -140,6 +170,8 @@
 
 .details ul li {
   list-style-type: none;
+  font-family: math;
+
 }
 
 .details span {
@@ -152,6 +184,8 @@
 
 .decl p {
   padding: 10px;
+  font-family: math;
+
 }
 
 .decl h2 {
@@ -165,6 +199,12 @@
 }
 
 .d-p {
+  padding-left: 40px;
   display: flex;
   flex-direction: column;
+}
+
+.d-p span{
+  font-family: math;
+
 }
