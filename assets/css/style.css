@@ -218,6 +218,7 @@ nav.shift ul li a:hover:after {
 .home {
   padding: 80px 0 50px 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 1px solid #000;
@@ -288,6 +289,7 @@ nav.shift ul li a:hover:after {
   padding: 50px 0 50px 0;
   border-bottom: 1px solid #000;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -368,6 +370,7 @@ nav.shift ul li a:hover:after {
 .first {
   margin-bottom: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 70px;
 }
@@ -434,6 +437,7 @@ nav.shift ul li a:hover:after {
 
 .second {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 70px;
 }
@@ -527,6 +531,7 @@ nav.shift ul li a:hover:after {
 
 .both-side {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
